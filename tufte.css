@@ -117,7 +117,7 @@ blockquote footer { width: 50%;
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -82%;
                                                min-width: 59%;
-                                               text-align: left; }                    
+                                               text-align: left; }
 
 ol, ul { width: 45%;
          -webkit-padding-start: 5%;
@@ -276,3 +276,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             div.table-wrapper, table, table.booktabs { width: 85%; }
                             div.table-wrapper { border-right: 1px solid #efefef; }
                             img { width: 100%; } }
+
+
+th {
+  text-align: left;
+}
